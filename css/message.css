@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.header-logo{
+    justify-self: center;
+    width: 200px;
+    height: 200px;
+}
+.header-title{
+    text-align: center;
+}
+.header-body{
+    align-self: flex-start;
+    padding: 20px 45px;
+}
+
+.msg-body{
+    padding: 25px 45px;
+}
+.msg-body > p{
+    margin-bottom: 5px;
+    font-style: italic;
+}
+
+.msg-body .msg-value{
+    color: #ff6500;
+    font-style: normal;
+    font-weight: bold;
+}
+.msg-body .msg-value_mail{
+    color: #ff6500;
+    text-decoration: underline;
+}

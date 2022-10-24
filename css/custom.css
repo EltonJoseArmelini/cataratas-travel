@@ -1,0 +1,106 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.main-title-section{
+  text-align: center;
+  color: #ff6500;
+}
+.title-desc{
+  color: #000;
+}
+
+.item-btn{
+    padding: 5px 15px 5px 15px!important;
+    background-color: #ff6500;
+    border-radius: 3px;
+    color: #fff!important;
+    text-decoration: none;
+}
+.item-btn:hover{
+    background-color: #fff;
+    color: #ff6500!important;
+    border: 1px solid #ff6500;
+
+}
+
+#about-us{
+    text-align: center;
+}
+
+
+i>img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.fullwidth-block{
+    padding: 25px 0px;
+}
+
+.section-title{
+
+    text-align: center;
+    font-size: 3em;
+
+}
+.logo-brand-footer{
+    height: 85px;
+    width: auto;
+}
+.contact-links a{
+    margin-top: 10px!important;
+}
+.header-content{
+    display: flex;
+    align-content: flex-start;
+}
+.item{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: .9em;
+}
+.copy{
+    text-align: center;
+}
+
+.slide-bg{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.feature.left-icon .feature-title{
+    padding-top: 15px;
+    text-align: center;
+}
+.main-container{
+  padding: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.brand{
+  display: block;
+  text-align: center;
+  height: 75px;
+}
+.main-container img{
+  height: 300px;
+}
+.main-container .brand{
+  height: 80px;
+}
+
+.main-container h1{
+  font-size: 2.5em;
+}
+.main-container h3{
+  font-size: 1.5em;
+}
+.main-container a{
+font-size: 0.8em;
+}
