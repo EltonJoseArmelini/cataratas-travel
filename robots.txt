@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+Disallow: /js/
+Disallow: /css/
+Disallow: /vendor/
+Disallow: /dummy/
+Disallow: composer.json
+Disallow: composer.lock
+Disallow: mailsender.php
+Disallow: styles.css
+Disallow: 404.html
+
+
+Sitemap: https://cataratastravel.com/sitemap.xml
+Sitemap: http://www.cataratastravel.com/sitemap.xml
